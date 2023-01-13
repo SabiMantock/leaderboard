@@ -25,11 +25,12 @@ li:nth-child(even) {
   display: flex;
   justify-content: space-between;
 }
-h2{
+
+h2 {
   font-size: 16px;
 }
 
-.score{
+.score {
   width: 60%;
 }
 
@@ -56,18 +57,19 @@ form {
   display: flex;
   flex-direction: column;
   width: 100%;
+
   /* margin: 10px; */
   justify-content: center;
   align-items: center;
 }
 
-input{
-  width:100%;
+input {
+  width: 100%;
   margin-top: 10px;
   padding: 5px;
 }
 
-.submit-button{
-align-self: flex-end;
-margin-top: 10px;
+.submit-button {
+  align-self: flex-end;
+  margin-top: 10px;
 }
