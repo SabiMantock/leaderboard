@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-title {
+  font-size: 32px;
+}
+
+#score-record {
+  border: 2px solid;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+li:nth-child(even) {
+  background-color: #ddd;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.score {
+  width: 60%;
+}
+
+.refresh {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.score-details {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  /* margin: 10px; */
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.submit-button {
+  align-self: flex-end;
+  margin-top: 10px;
+}
