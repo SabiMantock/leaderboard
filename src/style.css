@@ -11,6 +11,12 @@
 #score-record {
   border: 2px solid;
   width: 100%;
+  height: 150px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 ul {
@@ -31,7 +37,7 @@ h2 {
 }
 
 .score {
-  width: 60%;
+  width: 200px;
 }
 
 .refresh {
@@ -40,11 +46,9 @@ h2 {
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: center;
-  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
   margin: 0 auto;
 }
 
