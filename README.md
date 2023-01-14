@@ -80,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link](https://github.com/SabiMantock)
+- [Live Demo Link](https://sabimantock.github.io/leaderboard/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
