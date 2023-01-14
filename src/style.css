@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+body {
+  background-color: blanchedalmond;
+}
+
+header {
+  text-align: center;
+  padding: 20px 5px;
+  background-color: #ddd;
+}
+
 .app-title {
   font-size: 32px;
 }
@@ -30,6 +40,8 @@ li:nth-child(even) {
 .scoreboard {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
 }
 
 h2 {
@@ -40,16 +52,25 @@ h2 {
   width: 200px;
 }
 
-.refresh {
-  display: flex;
-  justify-content: flex-end;
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2.5px;
+  background-color: goldenrod;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  transition: ease-out 500ms;
 }
 
 main {
   display: flex;
   justify-content: space-between;
   width: 40%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .score-details {
