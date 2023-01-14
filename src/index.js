@@ -1,11 +1,12 @@
 import './style.css';
 import { url } from './utils/url.js';
-import fetchScores from './modules/fetchScores';
+import fetchScores from './modules/fetchScores.js';
 
 const refresh = document.getElementById('refresh');
 const form = document.getElementById('form');
 
-refresh.addEventListener('click', fetchScores);
+refresh.addEventListener('click',
+  fetchScores);
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -15,7 +16,7 @@ form.addEventListener('submit', async (e) => {
     user: nameInput,
     score: scoreInput,
   };
-   await fetch(url, {
+  await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
